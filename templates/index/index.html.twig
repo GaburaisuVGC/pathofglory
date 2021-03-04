@@ -1,0 +1,56 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}Path of Glory{% endblock %}
+
+
+
+
+{% block content %}
+
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <h1>Hello ! ✅</h1>
+    <button class="btn btn-primary">Bouton</button>
+
+    This friendly message is coming from:
+    <ul>
+        <li>Your controller at <code><a href="{{ 'D:/pathofglory/pathofglory/src/Controller/IndexController.php'|file_link(0) }}">src/Controller/IndexController.php</a></code></li>
+        <li>Your template at <code><a href="{{ 'D:/pathofglory/pathofglory/templates/index/index.html.twig'|file_link(0) }}">templates/index/index.html.twig</a></code></li>
+    </ul>
+</div>
+
+<div>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Pseudo</th>
+      <th scope="col">Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Jacob</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+{% endblock %}
+
